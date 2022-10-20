@@ -1,0 +1,15 @@
+C:\Users\arnas\Documents\CODE\KITM\C SHARP\Namu darbas 1\Namu Darbas\Namu Darbas\bin\Debug\net6.0\Namu Darbas.exe
+C:\Users\arnas\Documents\CODE\KITM\C SHARP\Namu darbas 1\Namu Darbas\Namu Darbas\bin\Debug\net6.0\Namu Darbas.deps.json
+C:\Users\arnas\Documents\CODE\KITM\C SHARP\Namu darbas 1\Namu Darbas\Namu Darbas\bin\Debug\net6.0\Namu Darbas.runtimeconfig.json
+C:\Users\arnas\Documents\CODE\KITM\C SHARP\Namu darbas 1\Namu Darbas\Namu Darbas\bin\Debug\net6.0\Namu Darbas.dll
+C:\Users\arnas\Documents\CODE\KITM\C SHARP\Namu darbas 1\Namu Darbas\Namu Darbas\bin\Debug\net6.0\Namu Darbas.pdb
+C:\Users\arnas\Documents\CODE\KITM\C SHARP\Namu darbas 1\Namu Darbas\Namu Darbas\obj\Debug\net6.0\Namu Darbas.csproj.AssemblyReference.cache
+C:\Users\arnas\Documents\CODE\KITM\C SHARP\Namu darbas 1\Namu Darbas\Namu Darbas\obj\Debug\net6.0\Namu Darbas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnas\Documents\CODE\KITM\C SHARP\Namu darbas 1\Namu Darbas\Namu Darbas\obj\Debug\net6.0\Namu Darbas.AssemblyInfoInputs.cache
+C:\Users\arnas\Documents\CODE\KITM\C SHARP\Namu darbas 1\Namu Darbas\Namu Darbas\obj\Debug\net6.0\Namu Darbas.AssemblyInfo.cs
+C:\Users\arnas\Documents\CODE\KITM\C SHARP\Namu darbas 1\Namu Darbas\Namu Darbas\obj\Debug\net6.0\Namu Darbas.csproj.CoreCompileInputs.cache
+C:\Users\arnas\Documents\CODE\KITM\C SHARP\Namu darbas 1\Namu Darbas\Namu Darbas\obj\Debug\net6.0\Namu Darbas.dll
+C:\Users\arnas\Documents\CODE\KITM\C SHARP\Namu darbas 1\Namu Darbas\Namu Darbas\obj\Debug\net6.0\refint\Namu Darbas.dll
+C:\Users\arnas\Documents\CODE\KITM\C SHARP\Namu darbas 1\Namu Darbas\Namu Darbas\obj\Debug\net6.0\Namu Darbas.pdb
+C:\Users\arnas\Documents\CODE\KITM\C SHARP\Namu darbas 1\Namu Darbas\Namu Darbas\obj\Debug\net6.0\Namu Darbas.genruntimeconfig.cache
+C:\Users\arnas\Documents\CODE\KITM\C SHARP\Namu darbas 1\Namu Darbas\Namu Darbas\obj\Debug\net6.0\ref\Namu Darbas.dll
