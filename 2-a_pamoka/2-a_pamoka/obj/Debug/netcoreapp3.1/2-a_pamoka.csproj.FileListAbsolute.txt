@@ -1,0 +1,13 @@
+C:\Users\moksleivis\Desktop\Arnas_Vee\2-a Pamoka\2-a_pamoka\2-a_pamoka\bin\Debug\netcoreapp3.1\2-a_pamoka.exe
+C:\Users\moksleivis\Desktop\Arnas_Vee\2-a Pamoka\2-a_pamoka\2-a_pamoka\bin\Debug\netcoreapp3.1\2-a_pamoka.deps.json
+C:\Users\moksleivis\Desktop\Arnas_Vee\2-a Pamoka\2-a_pamoka\2-a_pamoka\bin\Debug\netcoreapp3.1\2-a_pamoka.runtimeconfig.json
+C:\Users\moksleivis\Desktop\Arnas_Vee\2-a Pamoka\2-a_pamoka\2-a_pamoka\bin\Debug\netcoreapp3.1\2-a_pamoka.runtimeconfig.dev.json
+C:\Users\moksleivis\Desktop\Arnas_Vee\2-a Pamoka\2-a_pamoka\2-a_pamoka\bin\Debug\netcoreapp3.1\2-a_pamoka.dll
+C:\Users\moksleivis\Desktop\Arnas_Vee\2-a Pamoka\2-a_pamoka\2-a_pamoka\bin\Debug\netcoreapp3.1\2-a_pamoka.pdb
+C:\Users\moksleivis\Desktop\Arnas_Vee\2-a Pamoka\2-a_pamoka\2-a_pamoka\obj\Debug\netcoreapp3.1\2-a_pamoka.csprojAssemblyReference.cache
+C:\Users\moksleivis\Desktop\Arnas_Vee\2-a Pamoka\2-a_pamoka\2-a_pamoka\obj\Debug\netcoreapp3.1\2-a_pamoka.AssemblyInfoInputs.cache
+C:\Users\moksleivis\Desktop\Arnas_Vee\2-a Pamoka\2-a_pamoka\2-a_pamoka\obj\Debug\netcoreapp3.1\2-a_pamoka.AssemblyInfo.cs
+C:\Users\moksleivis\Desktop\Arnas_Vee\2-a Pamoka\2-a_pamoka\2-a_pamoka\obj\Debug\netcoreapp3.1\2-a_pamoka.csproj.CoreCompileInputs.cache
+C:\Users\moksleivis\Desktop\Arnas_Vee\2-a Pamoka\2-a_pamoka\2-a_pamoka\obj\Debug\netcoreapp3.1\2-a_pamoka.dll
+C:\Users\moksleivis\Desktop\Arnas_Vee\2-a Pamoka\2-a_pamoka\2-a_pamoka\obj\Debug\netcoreapp3.1\2-a_pamoka.pdb
+C:\Users\moksleivis\Desktop\Arnas_Vee\2-a Pamoka\2-a_pamoka\2-a_pamoka\obj\Debug\netcoreapp3.1\2-a_pamoka.genruntimeconfig.cache
