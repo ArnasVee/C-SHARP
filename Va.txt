@@ -1,0 +1,99 @@
+using System;
+
+namespace _3_ia_Pamoka
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            //Console.WriteLine(DayOfWeek.Sunday);
+            //Console.WriteLine(SavaitesDienos.monday);
+
+            Console.WriteLine("kiek langu?");
+            int kiek = int.Parse(Console.ReadLine());
+            double[] languPlotis = new double[kiek];
+            double[] languAukstis = new double[kiek];            
+            double[] languPlotas = new double[kiek];
+            double[] languMediena = new double[kiek];
+            for (int i = 0; i < kiek; i++)
+            {
+                Console.Write(i+1);
+                Console.Write("-o lango plotis?");
+                languPlotis[i] = double.Parse(Console.ReadLine());
+                Console.Write(i + 1);
+                Console.Write("-o lango aukstis?");
+                languAukstis[i] = double.Parse(Console.ReadLine());
+                languPlotas[i] = languPlotis[i] * languAukstis[i];
+                languMediena[i] = 2 * (languPlotis[i] + languAukstis[i]); 
+            }
+            for (int x = 0; x < languPlotis.Length; x++)
+            {
+                Console.WriteLine(languPlotis[x]);
+            }
+            for (int x = 0; x < languAukstis.Length; x++)
+            {
+                Console.WriteLine(languAukstis[x]);
+            }
+
+
+
+
+
+
+            //double plotis = double.Parse(Console.ReadLine());
+            //Console.WriteLine("aukstis?");
+            //double aukstis = double.Parse(Console.ReadLine());
+            //double plotas = plotis * aukstis;
+            //Console.Write("plotas yra ");
+            //Console.Write(string.Format("{0:0.00}", plotas));//skaiciaus formatavimas
+            //Console.WriteLine();
+            //double mediena = 2 * (plotis + aukstis);
+            //Console.Write("Reikes ");
+            //Console.Write(string.Format("{0:0.00}", mediena));
+            //Console.Write(" medienos");
+
+
+
+            //-----------------------------------------------------
+            //TIKRINIMAS AR SKAICIUS
+            //if (int.TryParse(Console.ReadLine(), out int sk))
+            //{
+            //    Console.WriteLine(sk);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Ne skaicius!");
+            //}
+            //-----------------------------------------------
+
+            //foreach (var item in collection)
+            //{
+
+            //}
+
+            //var sk1 = 15;
+            //var pasisveikinimas = "labas"
+            ;
+
+
+        }
+
+
+        //private enum SavaitesDienos
+        //{
+        //    monday = 15,
+        //    tuesday = 1,
+        //    wednesday, //2
+        //    thursday, //3...
+        //    friday,
+        //    saturday,
+        //    sunday
+        //}
+
+        
+        
+        
+            
+    }
+}
