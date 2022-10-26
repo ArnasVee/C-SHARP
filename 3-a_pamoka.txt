@@ -1,0 +1,174 @@
+using System;
+
+namespace _3_ia_Pamoka
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            //Console.WriteLine(DayOfWeek.Sunday);
+            //Console.WriteLine(SavaitesDienos.monday);
+
+            Console.WriteLine("kiek langu?");
+            int kiek = int.Parse(Console.ReadLine());
+            double medienosStoris = 0.1;
+            double stikluIkainis = 5;
+            double medienosIkainis = 3;
+            double[] anguPlociai = new double[kiek];
+            double[] anguAuksciai = new double[kiek];
+            //double[] anguPlotai = new double[kiek];
+            double[] stikluPlociai = new double[kiek];
+            double[] stikluAuksciai = new double[kiek];
+            double[] stikluPlotai = new double[kiek];
+            double[] languMediena = new double[kiek];
+            double[] stikluKainos = new double[kiek];
+            double[] medienosKainos = new double[kiek];
+            double stikluKaina = 0;
+            double medienosKaina;
+            double GalutineKaina;
+            for (int i = 0; i < kiek; i++)
+            {
+                Console.Write(i + 1);
+                Console.Write("-o lango angos plotis metrais?");
+                anguPlociai[i] = double.TryParse(Console.ReadLine(), out double plotis) ? plotis : pakartokite();
+                stikluPlociai[i] = anguPlociai[i] - medienosStoris;
+                Console.Write(i + 1);
+                Console.Write("-o lango angos aukstis metrais?");
+                anguAuksciai[i] = double.TryParse(Console.ReadLine(), out double aukstis) ? aukstis : pakartokite();
+                stikluAuksciai[i] = anguAuksciai[i] - medienosStoris;
+                Console.WriteLine("---------------------------------");
+                stikluPlotai[i] = stikluPlociai[i] * stikluAuksciai[i];
+                //anguPlotai[i] = anguPlociai[i] * anguAuksciai[i];
+                languMediena[i] = (anguPlociai[i] + anguAuksciai[i] * 2 * medienosStoris);
+                stikluKainos[i] = stikluPlotai[i] * stikluIkainis;
+                medienosKainos[i] = languMediena[i] * medienosIkainis;
+            }
+                Console.Write("Angu Pločiai: ");
+            for (int x = 0; x < anguPlociai.Length; x++)
+            {                
+                Console.Write(string.Format("{0:0.00}", anguPlociai[x]));
+                Console.Write("m. ");
+                
+            }
+                Console.WriteLine();
+                Console.Write("Angu Aukščiai: ");
+            for (int x = 0; x < anguAuksciai.Length; x++)
+            {
+                Console.Write(string.Format("{0:0.00}", anguAuksciai[x]));
+                Console.Write("m. ");
+            }
+                Console.WriteLine();
+            //    Console.Write("Angu Plotai: ");
+            //for (int x = 0; x < anguPlotai.Length; x++)
+            //{
+            //    Console.Write(anguPlotai[x]);
+            //    Console.Write("kv. m. ");
+            //}
+                Console.Write("Stiklu Plotai: ");
+            for (int x = 0; x < stikluPlotai.Length; x++)
+            {
+                Console.Write(string.Format("{0:0.00}", stikluPlotai[x]));
+                Console.Write("kv.m. ");
+            }
+                Console.WriteLine();
+                Console.Write("Reikalinga Mediena: ");
+            for (int x = 0; x < languMediena.Length; x++)
+            {
+                Console.Write(string.Format("{0:0.00}", languMediena[x]));
+                Console.Write("kv.m. ");
+            }
+            Console.WriteLine();
+            Console.Write("Stiklu kainos yra: ");
+            foreach(var item in stikluKainos)
+            {
+                Console.Write(string.Format("{0:0.00}", item));
+                Console.Write("Eu ");
+            }
+            Console.WriteLine();
+
+
+            for (int x = 0; x < stikluKainos.Length;x++)
+            {
+                stikluKaina = stikluKaina + stikluKainos[x];
+            }
+            Console.Write("Galutine stiklu kaina yra: ");
+            Console.Write(string.Format("{0:0.00}", stikluKaina));
+            Console.Write(" Euru");
+
+
+
+
+
+
+
+                //double plotis = double.Parse(Console.ReadLine());
+                //Console.WriteLine("aukstis?");
+                //double aukstis = double.Parse(Console.ReadLine());
+                //double plotas = plotis * aukstis;
+                //Console.Write("plotas yra ");
+                //Console.Write(string.Format("{0:0.00}", plotas));//skaiciaus formatavimas
+                //Console.WriteLine();
+                //double mediena = 2 * (plotis + aukstis);
+                //Console.Write("Reikes ");
+                //Console.Write(string.Format("{0:0.00}", mediena));
+                //Console.Write(" medienos");
+
+
+
+                //-----------------------------------------------------
+                //TIKRINIMAS AR SKAICIUS
+                //if (int.TryParse(Console.ReadLine(), out int sk))
+                //{
+                //    Console.WriteLine(sk);
+                //}
+                //else
+                //{
+                //    Console.WriteLine("Ne skaicius!");
+                //}
+                //-----------------------------------------------
+
+                //foreach (var item in collection)
+                //{
+
+                //}
+
+                //var sk1 = 15;
+                //var pasisveikinimas = "labas"
+                ;
+
+
+        }
+
+        private static double pakartokite()
+        {
+            double matmuo;
+            Console.WriteLine("Prašome įvesti skaičių");
+            if (double.TryParse(Console.ReadLine(), out matmuo))
+            {
+                return matmuo;
+            }
+            else
+            { 
+                pakartokite();
+            }
+            return double.MinValue;   // ka reiskia MinValue???
+        }
+
+        //private enum SavaitesDienos
+        //{
+        //    monday = 15,
+        //    tuesday = 1,
+        //    wednesday, //2
+        //    thursday, //3...
+        //    friday,
+        //    saturday,
+        //    sunday
+        //}
+
+
+
+
+
+    }
+}
