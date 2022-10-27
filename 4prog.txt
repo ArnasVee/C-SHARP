@@ -1,0 +1,119 @@
+using System;
+using System.Collections.Generic;
+
+namespace _4_a_pamoka
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //IEnumerable<string> stringuMasyvas3;
+
+            //ICollection<string> stringuMasyvas2;
+            //IDictionary<string, string> stringuMasyvas6; //key ir vallue  --> key value pair
+            //Queue<string> stringuMasyvas5;
+
+
+            //List<string> stringuMasyvas;
+
+
+            //Stack stringuMasyvas4 = new Stack();
+            //stringuMasyvas4.Push(5);
+            //stringuMasyvas4.Push("labs");
+            //stringuMasyvas4.Push("G");
+            //stringuMasyvas4.Push(null);
+            //stringuMasyvas4.Push(1234);
+            //stringuMasyvas4.Push(490.98);
+
+            //foreach (var item in stringuMasyvas4)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //List<string> studentuVardai = new List<string>();
+            //studentuVardai.Add("Vardenis");
+            //studentuVardai.Add("Vardonijus");
+            //studentuVardai.Add("Vardzius");
+            //studentuVardai.Add("Vardelis");
+            //studentuVardai.Add("Vardska");
+            //studentuVardai.Add("Vardukas");
+
+            //List<string> studentuVardai = new List<string>
+            //{
+            //    "Vardenis",
+            //    "Vardonijus",
+            //    "Vardzius",
+            //    "Vardelis",
+            //    "Vardska",
+            //    "Vardukas"
+            //};
+            //studentuVardai.Add("Vardmantas");
+            //foreach (string vardas in studentuVardai)
+            //{
+            //    Console.WriteLine(vardas);
+            //}
+            //Console.WriteLine("--------------------");
+            //List<string> beVardelio = new List<string>();
+            //foreach(string vardas in studentuVardai)
+            //{
+            //    if (vardas.ToLower() != "vardelis")
+            //    {
+            //        beVardelio.Add(vardas);
+            //    }
+            //}
+            //foreach (string vardas in beVardelio)
+            //{
+            //    Console.WriteLine(vardas);
+            //}
+
+
+            //-----------------------------------------------------------------------------------------------------------
+            //List<Zmogus> zmones = new List<Zmogus>();
+            //Zmogus pirmasZmogus = new Zmogus
+            //{
+            //    name = "Arnas",
+            //    surname = "Vee"
+            //};
+            //Zmogus antrasZmogus = new Zmogus
+            //{
+            //    name = "Gitanas",
+            //    surname = "Nauseda"
+            //};
+            //zmones.Add(pirmasZmogus);
+            //zmones.Add(antrasZmogus);
+            //foreach (Zmogus zmogus in zmones)
+            //{
+            //    Console.WriteLine(zmogus.PilnasVardas());
+            //}
+
+            //BIBLIOTEKOS PROGRAMA-----------------------------------------------------
+
+            Book AltoriuSeselis = new Book { BookId = 1, Author = "Vincas Mykolaitis-Putinas", BookName = "Altoriu Seselyje" };
+            Book antraKnyga = new Book { BookId = 2, Author = "Kazys Saja", BookName = "Brisiaus Galas" };
+
+            List<Book> books = new List<Book>() { AltoriuSeselis, antraKnyga };
+            SpausdintiKnyguPavadinimus(books);
+
+        }
+        static void SpausdintiKnyguPavadinimus (List<Book> books)
+        {
+            foreach(var book in books)
+            {
+                Console.WriteLine(book.BookName);
+            }
+        }
+        //struct Zmogus
+        //{
+        //    public string name;
+        //    public string surname;
+        //    public string PilnasVardas()
+        //    {
+        //        return name + " " + surname;
+        //    }
+        //}
+
+    }
+    
+}
+    
+

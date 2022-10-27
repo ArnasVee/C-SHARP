@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace _4_a_pamoka
+{
+
+    public struct Book
+    {
+        public int BookId;
+        public string BookName;
+        public string Author;
+    }
+    public struct Reader
+    {
+        public string ReaderName;
+        public int ReaderId;
+    }
+}
