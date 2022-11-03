@@ -1,0 +1,48 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+
+namespace _5a_pamoka
+{
+    class Program
+    {
+        private static string path = "C:/Users/moksleivis/Desktop/Arnas_Vee/5a pamoka/textFile.txt";
+
+
+
+        static void Main(string[] args)
+        {
+            //fileReader(path);
+            Console.WriteLine("Parasykit kazka");
+            string info = Console.ReadLine();
+            File.AppendAllText(path, info + Environment.NewLine);
+            //fileReader(path);
+            List<String> listOfLines = new List<String>(File.ReadLines(path));
+            foreach (var line in listOfLines)
+            {
+                Console.WriteLine(line);
+            }
+            Console.WriteLine("Ieskom:");
+            string search = Console.ReadLine();
+            foreach (var line in listOfLines)
+            {
+                if (search == line)
+                {
+                    Console.WriteLine("YRA!");
+                    Console.WriteLine(search);
+                }
+                else
+                {
+                    Console.WriteLine("nera");
+                }
+            }
+        }
+        static void fileReader(string p)
+        {
+            string failoTekstas = File.ReadAllText(p);
+            Console.WriteLine(failoTekstas);
+        }
+        // to do lista i faila
+
+    }
+}
